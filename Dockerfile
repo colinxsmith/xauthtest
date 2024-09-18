@@ -6,4 +6,4 @@ RUN apt update && apt install -y gedit xauth
 RUN xauth add lapper24/unix:0  MIT-MAGIC-COOKIE-1  b72d6042dbdeeb12752383452967266f
 RUN xauth list
 
-#then inside the cotainer we can run gedit and get a window to do the editting
+#then inside the container we can run gedit and get a window to do the editting
